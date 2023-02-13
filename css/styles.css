@@ -5,3 +5,9 @@ margin: 0;
 background-color: #cdc08c;
 color: #000;
 }
+
+label{
+    display: inline-block !important;
+    background-color: red;
+  margin:  0.5rem 0;
+}
