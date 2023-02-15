@@ -10,13 +10,13 @@
   <body>
     <h1>Registration form</h1>
 
-    <form action="#"></form>
+    <form action="#">
     <fieldset>
         
-        <label for="#">Enter your first name: <input type="text" required></label>
-        <label for="#">Enter your last name: <input type="text" required></label>
-        <label for="#">Enter your email: <input type="email" required></label>
-        <label for="#">Enter your password: <input type="password" minlength="10" pattern="[a-z0-5]{8}" required/></label>
+        <label for="#">Enter your first name: <input type="text" name="f_name" required></label>
+        <label for="#">Enter your last name: <input type="text" name="l_name" required></label>
+        <label for="#">Enter your email: <input type="email" name="email" required></label>
+        <label for="#">Enter your password: <input type="password" name="password" minlength="10" pattern="[a-z0-5]{8}" required/></label>
 
     </fieldset>
 
@@ -24,28 +24,28 @@
     <fieldset>
       <label for="#"><input type="radio" name="account-type">Personal Account</label>
       <label for="#"><input type="radio" name="account-type">Business Account</label>
-      <label for="#"><input type="checkbox" name="" required>I accept the <a href="#">terms and condition</a></label>
+      <label for="#"><input type="checkbox" name="terms" required>I accept the <a href="#">terms and condition</a></label>
     </fieldset>
 
 
 
     <fieldset>
-      <label for="">Upload a picture: <input type="file" name="" id=""></label>
+      <label for="">Upload a picture: <input type="file" name="picture" id=""></label>
    
-      <label>Input YOur Age Years <input type="number" name="" id="" min="14" max="120"></label>
+      <label>Input YOur Age Years <input type="number" name="age" id="" min="14" max="120"></label>
 
 <label>How did you hear from us?
   <select name="" id="">
     <option value="">(select one)</option>
-    <option value="1">Social Media</option>
-    <option value="2">Television</option>
-    <option value="3">Friend</option>
-    <option value="4">Others</option>
+    <option value="1" name="social">Social Media</option>
+    <option value="2" name="tv">Television</option>
+    <option value="3" name="friend">Friend</option>
+    <option value="4" name="others">Others</option>
    </select>
 </label>
-<label for="">Provide BIo <textarea name="" id="" cols="30" rows="10" placeholder="please enter bio"></textarea></label>
+<label for="">Provide BIo <textarea name="bio" id="" cols="30" rows="10" placeholder="please enter bio"></textarea></label>
     </fieldset>
     <input type="submit" value="Submit">
-
+  </form>
   </body>
 </html>
