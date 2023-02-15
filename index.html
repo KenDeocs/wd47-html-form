@@ -13,11 +13,17 @@
     <form action="#">
     <fieldset>
         
-        <label for="#">Enter your first name: <input type="text" name="f_name" required></label>
-        <label for="#">Enter your last name: <input type="text" name="l_name" required></label>
-        <label for="#">Enter your email: <input type="email" name="email" required></label>
-        <label for="#">Enter your password: <input type="password" name="password" minlength="10" pattern="[a-z0-5]{8}" required/></label>
+        <label for="#">Enter your first name: </label>
+        <input type="text" name="f_name" placeholder="Enter your first name" required>
 
+        <label for="#">Enter your last name: </label>
+        <input type="text" name="l_name" placeholder="Enter your last name" required>
+
+        <label for="#">Enter your email: </label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+
+        <label for="#">Enter your password: </label>
+        <input type="password" name="password" placeholder="Enter your password" minlength="10" pattern="[a-z0-5]{8}" required/>
     </fieldset>
 
 
@@ -34,16 +40,16 @@
    
       <label>Input YOur Age Years <input type="number" name="age" id="" min="14" max="120"></label>
 
-<label>How did you hear from us?
-  <select name="" id="">
-    <option value="">(select one)</option>
-    <option value="1" name="social">Social Media</option>
-    <option value="2" name="tv">Television</option>
-    <option value="3" name="friend">Friend</option>
-    <option value="4" name="others">Others</option>
-   </select>
-</label>
-<label for="">Provide BIo <textarea name="bio" id="" cols="30" rows="10" placeholder="please enter bio"></textarea></label>
+<label>How did you hear from us?</label>
+<select name="" id="">
+  <option value="">(select one)</option>
+  <option value="1" name="social">Social Media</option>
+  <option value="2" name="tv">Television</option>
+  <option value="3" name="friend">Friend</option>
+  <option value="4" name="others">Others</option>
+ </select>
+<label for="">Provide BIo </label>
+<textarea name="bio" id="" cols="30" rows="10" placeholder="please enter bio"></textarea>
     </fieldset>
     <input type="submit" value="Submit">
   </form>
