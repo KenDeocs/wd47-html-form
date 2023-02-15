@@ -7,7 +7,6 @@ color: #000;
 }
 
 label{
-    display: inline-block !important;
-
+  display: inline-block !important;
   margin:  0.5rem 0;
 }
